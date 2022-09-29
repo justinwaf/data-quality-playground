@@ -1,0 +1,19 @@
+[tool.poetry]
+name = "data-quality-playground"
+version = "0.1.0"
+description = ""
+authors = ["JFAC <jfac@equinor.com>"]
+
+[tool.poetry.dependencies]
+python = "^3.8"
+great-expectations = "^0.15.23"
+pandas = "^1.5.0"
+scikit-learn = "^1.1.2"
+
+[tool.poetry.dev-dependencies]
+pytest = "^5.2"
+jupyter = "^1.0.0"
+
+[build-system]
+requires = ["poetry-core>=1.0.0"]
+build-backend = "poetry.core.masonry.api"
